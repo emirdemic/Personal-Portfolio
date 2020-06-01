@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Predicting Employee Turnover</title>
+      <link>https://emirdemic.github.io/Personal-Portfolio/post/chapter-5/</link>
+      <pubDate>Fri, 29 May 2020 11:15:58 -0400</pubDate>
+      
+      <guid>https://emirdemic.github.io/Personal-Portfolio/post/chapter-5/</guid>
+      <description>Since employee turnover poses a great issue for companies and organizations regardless of their size, the goal of this project was to develop, evaluate and choose the best model for predicting whether employee will leave the company or not. The goal was accomplished by training several different estimators, tuning hyperparameters and developing more complex ensemble models. The final model achieved an accuracy of 99% on test data! Conclusions and implications are discussed.</description>
+    </item>
+    
+    <item>
       <title>Replicating Patterns of Prospect Theory for Decision Under Risk</title>
       <link>https://emirdemic.github.io/Personal-Portfolio/post/chapter-6/</link>
       <pubDate>Mon, 18 May 2020 11:25:05 -0400</pubDate>
@@ -21,50 +30,49 @@
     </item>
     
     <item>
-      <title>Predicting Employee Turnover</title>
-      <link>https://emirdemic.github.io/Personal-Portfolio/post/chapter-5/</link>
-      <pubDate>Thu, 13 Apr 2017 11:15:58 -0400</pubDate>
-      
-      <guid>https://emirdemic.github.io/Personal-Portfolio/post/chapter-5/</guid>
-      <description>The goal of this project was to develop, evaluate and choose the best model for predicting whether employee will leave the company or not. The goal was accomplished by training several different estimators, tuning hyperparameters and developing more complex ensemble models. The notebook is avaliable here, while the final report with graphs made in Tableau will soon be available!</description>
-    </item>
-    
-    <item>
-      <title>Chapter IV: Master Jacques Coppenole</title>
-      <link>https://emirdemic.github.io/Personal-Portfolio/post/chapter-4/</link>
-      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
-      
-      <guid>https://emirdemic.github.io/Personal-Portfolio/post/chapter-4/</guid>
-      <description>While the pensioner of Ghent and his eminence were exchanging very low bows and a few words in voices still lower, a man of lofty stature, with a large face and broad shoulders, presented himself, in order to enter abreast with Guillaume Rym; one would have pronounced him a bull-dog by the side of a fox. His felt doublet and leather jerkin made a spot on the velvet and silk which surrounded him.</description>
-    </item>
-    
-    <item>
-      <title>Chapter III: Monsieur the Cardinal</title>
-      <link>https://emirdemic.github.io/Personal-Portfolio/post/chapter-3/</link>
-      <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
-      
-      <guid>https://emirdemic.github.io/Personal-Portfolio/post/chapter-3/</guid>
-      <description>Poor Gringoire! the din of all the great double petards of the Saint-Jean, the discharge of twenty arquebuses on supports, the detonation of that famous serpentine of the Tower of Billy, which, during the siege of Paris, on Sunday, the twenty-sixth of September, 1465, killed seven Burgundians at one blow, the explosion of all the powder stored at the gate of the Temple, would have rent his ears less rudely at that solemn and dramatic moment, than these few words, which fell from the lips of the usher, “His eminence, Monseigneur the Cardinal de Bourbon.</description>
-    </item>
-    
-    <item>
-      <title>Chapter II: Pierre Gringoire</title>
-      <link>https://emirdemic.github.io/Personal-Portfolio/post/chapter-2/</link>
-      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
-      
-      <guid>https://emirdemic.github.io/Personal-Portfolio/post/chapter-2/</guid>
-      <description>Nevertheless, as be harangued them, the satisfaction and admiration unanimously excited by his costume were dissipated by his words; and when he reached that untoward conclusion: “As soon as his illustrious eminence, the cardinal, arrives, we will begin,” his voice was drowned in a thunder of hooting.
-“Begin instantly! The mystery! the mystery immediately!” shrieked the people. And above all the voices, that of Johannes de Molendino was audible, piercing the uproar like the fife’s derisive serenade: “Commence instantly!</description>
-    </item>
-    
-    <item>
-      <title>Chapter I: The Grand Hall</title>
+      <title>Exploring Chinook Music Store Database Using PostgreSQL</title>
       <link>https://emirdemic.github.io/Personal-Portfolio/post/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      <pubDate>Thu, 09 Apr 2020 10:58:08 -0400</pubDate>
       
       <guid>https://emirdemic.github.io/Personal-Portfolio/post/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
+      <description>The goal of this ongoing project is to explore the Chinook Database which consists of data on customers and their purchases in the Chinook music store. A few insights gatheres so far, which could drive future bussiness decisions and strategies, include the performance of employees in retail, average order value per country, top-selling genres, and whether customers by whole albums or individual tracks.
+This is still an ongoing project, and the current notebook version is available here.</description>
+    </item>
+    
+    <item>
+      <title>Testing the Explanation for Phonological Similarity Effect</title>
+      <link>https://emirdemic.github.io/Personal-Portfolio/post/chapter-4/</link>
+      <pubDate>Wed, 31 Jul 2019 11:14:48 -0400</pubDate>
+      
+      <guid>https://emirdemic.github.io/Personal-Portfolio/post/chapter-4/</guid>
+      <description>Phonological similarity effect refers to an observation that the recall of phonologically similar letters is worse than of those which are not similar. The effect was tested in multiple settings and seems to be highly robust. One potential explanation which was not extensively tested is that similar letters do not have discriminative retrieval cues, which leads to their poor recall. In this experiment, co-authored by Ana Avramović and Milica Šimonović and presented in Belgrade and Cambridge, the explanation was put to a direct test.</description>
+    </item>
+    
+    <item>
+      <title>Developing and Validating the Masculinity Scale</title>
+      <link>https://emirdemic.github.io/Personal-Portfolio/post/chapter-7/</link>
+      <pubDate>Tue, 18 Jun 2019 11:25:05 -0400</pubDate>
+      
+      <guid>https://emirdemic.github.io/Personal-Portfolio/post/chapter-7/</guid>
+      <description>Developed and validated scale which measures masculinity in collaboration with 4 colleagues of mine. During the first phase of this year-long project, a thorough literature review was conducted and specific subscales and items were constructed. Developed questionnaire was tested on a sample of 320 participants and results indicated which items should be excluded. The second phase consisted of checking construct, predictive, and diagnostic validity. For those purposes, a number of other scales were used as well, including those measuring agression, attitudes towards feminism, and HEXACO personality questionanire!</description>
+    </item>
+    
+    <item>
+      <title>Translating and Validating General Risk Propensity Scale</title>
+      <link>https://emirdemic.github.io/Personal-Portfolio/post/chapter-3/</link>
+      <pubDate>Mon, 20 May 2019 11:13:32 -0400</pubDate>
+      
+      <guid>https://emirdemic.github.io/Personal-Portfolio/post/chapter-3/</guid>
+      <description>Researchers interested in risk propensity traditionally considered risk taking as a domain-specific phenomenon. However, there is an evidence suggesting that risk taking could be considered as a general trait which could be measured by diffent techniques, among which are self-report questionnaires. Zhang and colleagues (2018) developed a short questionnaire for measuring general risk propensity. In this small project, the goal was to translate the scale into Serbian language, check its reliability, and explore its structural validity.</description>
+    </item>
+    
+    <item>
+      <title>Exploring War Propaganda in Serbian Newspapers</title>
+      <link>https://emirdemic.github.io/Personal-Portfolio/post/chapter-2/</link>
+      <pubDate>Sun, 10 Jun 2018 11:00:59 -0400</pubDate>
+      
+      <guid>https://emirdemic.github.io/Personal-Portfolio/post/chapter-2/</guid>
+      <description>Newspapers with fake news, spreading hatred, or even war propaganda is something that should come as no surprise for most people. However, most of these observations are just that - observations. For that reason, the goal of this small project was to collect data on war propaganda in Serbian daily newspapers in a random one-month period and to determine whether some newspapers write about defensive or offensive wars on their newspapers.</description>
     </item>
     
   </channel>

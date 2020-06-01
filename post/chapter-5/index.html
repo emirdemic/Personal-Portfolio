@@ -26,22 +26,22 @@
     
     
     <meta property="og:title" content="Predicting Employee Turnover" />
-<meta property="og:description" content="Building and evaluating a model for predicring whether employee will leave the company" />
+<meta property="og:description" content="Building and evaluating a model for predicting whether employee will leave the company" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://emirdemic.github.io/Personal-Portfolio/post/chapter-5/" />
-<meta property="article:published_time" content="2017-04-13T11:15:58-04:00" />
-<meta property="article:modified_time" content="2017-04-13T11:15:58-04:00" />
+<meta property="article:published_time" content="2020-05-29T11:15:58-04:00" />
+<meta property="article:modified_time" content="2020-05-29T11:15:58-04:00" />
 <meta itemprop="name" content="Predicting Employee Turnover">
-<meta itemprop="description" content="Building and evaluating a model for predicring whether employee will leave the company">
-<meta itemprop="datePublished" content="2017-04-13T11:15:58-04:00" />
-<meta itemprop="dateModified" content="2017-04-13T11:15:58-04:00" />
-<meta itemprop="wordCount" content="59">
+<meta itemprop="description" content="Building and evaluating a model for predicting whether employee will leave the company">
+<meta itemprop="datePublished" content="2020-05-29T11:15:58-04:00" />
+<meta itemprop="dateModified" content="2020-05-29T11:15:58-04:00" />
+<meta itemprop="wordCount" content="764">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Predicting Employee Turnover"/>
-<meta name="twitter:description" content="Building and evaluating a model for predicring whether employee will leave the company"/>
+<meta name="twitter:description" content="Building and evaluating a model for predicting whether employee will leave the company"/>
 
   </head>
 
@@ -51,8 +51,10 @@
    
   
 
-  <header>
-    <div class="bg-black">
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://emirdemic.github.io/Personal-Portfolio/images/employee.png');">
+    <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="https://emirdemic.github.io/Personal-Portfolio/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -97,14 +99,6 @@
 </span></a>
 
 
-<a href="htt" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
-  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
-
 
 
 
@@ -129,6 +123,16 @@
   </div>
 </nav>
 
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Predicting Employee Turnover</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Building and evaluating a model for predicting whether employee will leave the company
+            </h2>
+          
+        
+      </div>
     </div>
   </header>
 
@@ -176,12 +180,65 @@
       <h1 class="f1 athelas mt3 mb1">Predicting Employee Turnover</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2017-04-13T11:15:58-04:00">April 13, 2017</time>
+      <time class="f6 mv4 dib tracked" datetime="2020-05-29T11:15:58-04:00">May 29, 2020</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The goal of this project was to develop, evaluate and choose the best model for predicting whether employee will leave the company or not. The goal was accomplished by training several different estimators, tuning hyperparameters and developing more complex ensemble models. The notebook is avaliable here, while the final report with graphs made in Tableau will soon be available!</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Since employee turnover poses a great issue for companies and organizations regardless of their size, the goal of this project was to develop, evaluate and choose the best model for predicting whether employee will leave the company or not. The goal was accomplished by training several different estimators, tuning hyperparameters and developing more complex ensemble models. The final model achieved an accuracy of 99% on test data! Conclusions and implications are discussed.</p>
+<h2 id="the-project-goal">The Project Goal</h2>
+<p><em>Note: The notebook is available <a href="https://github.com/emirdemic/Predicting-Employee-Turnover/blob/master/Predicting%20Employee%20Turnover.ipynb">here</a> and <a href="https://nbviewer.jupyter.org/github/emirdemic/Predicting-Employee-Turnover/blob/master/Employee_turnover_predictions.ipynb">here</a> with interactive visualizations. The final report will soon be available online!</em></p>
+<p>Employee turnover poses a major issue for every company, regardless of its size. If an employee leave the company, it has to refill that position and that proces involves
+steps such as reaching out to potential candidates, conducting HR and technical interviews, shortlisting promising candidates, training new employees and welcoming them to a new environment.
+This process can be time consuming and ofter requires investing additional resources. Therefore, companies try to develop different strategies in order to improve the employee retention.
+However, developing strategies need to be well-informed in order for them to achieve the greatest impact.</p>
+<p>The goal of this project was to combat said issues in a company with around 14.000 employees (Kaggle dataset). There is a need for a model which would predict whether the employee
+will leave the company or not. Furthermore, that model should give us an information on which factors drive the employee turnover the most. In the end,
+the results would provide insights into which strategies should be developed and which employees should said strategies be focused on.</p>
+<h2 id="methodology">Methodology</h2>
+<p>In order to answer the proposed questions and issues, several models were developed,
+each adjusting for weights of the outcome feature inversely proportional to class frequencies.
+Each model was developed using standardized numerical features, and was evaluated using 10-k cross validation.
+In the end, metrics chosen for evaluating models were accuracy, precision, recall, and AUC.</p>
+<p>During the first step, following models were developed:</p>
+<ol>
+<li>Logistic Regression</li>
+<li>Polynomial Logistic Regression</li>
+<li>Linear Support Vector Classifier (SVC)</li>
+<li>Kernelised SVC</li>
+<li>Decision Tree Classifier (DCT)</li>
+</ol>
+<p>These models were developed with little-to-no hyperparameter tuning in order to list a few promising models.
+Both Logistic Regression and Linear SVC resulted in mediocre accuracy (around 75%), which indicated that
+relationship between features is probably non-linear. Polynomial Logistic Regression confirmed the assumption and resulted in
+high accuracy (94.3%), as well as SVC with Polynomial Kernel (94.5%) and SVC with RBF Kernel (98%). Since SVC with Polynomial Kernel is computationally
+more efficient than developing high-degree Polynomial Logistic Regression and developing SVC with RBF Kernel in cases with a large number of training instances,
+it was shortlisted as a promising model. In the end, developing DCT yielded similar results (97.8%). Therefore, two models were listed as promising:
+SVC with Polynomial Kernel and DCT.
+<img src="https://raw.githubusercontent.com/emirdemic/Predicting-Employee-Turnover/master/plots/roc.png" alt="ROC Curves"></p>
+<p>In the next phase, SVC hyperparameters were tuned which resulted in higher metrics overall (accuracy: 96%; precision: 89.9%; recall: 94%; AUC: 98%). However, applying Adaptive Boosting with tuned SVC as base estimator
+reduced accuracy and other measures. Since DCT had good results, developing Random Forest Classifier was expected to yield even better results, which was confirmed
+(accuracy: 98.8%; precision: 99.2%; recall: 95.8%; AUC: 99.3%).
+Since Random Forest Classifier outperformed SVC with Polynomial Kernel, it was chosen as the final model.</p>
+<h2 id="results">Results</h2>
+<p>Testing the final model on held-out test data resulted in high accuracy (98.7%), precision (99.1%), and recall (95.4%).
+The actual predictions can be examined on the graph below.
+<img src="https://raw.githubusercontent.com/emirdemic/Predicting-Employee-Turnover/master/plots/heatmap_predictions.png" alt="Predictions"></p>
+<p>In the end, results suggested that the factors which drive the employee turnover the most are:</p>
+<ol>
+<li>Job Satisfaction</li>
+<li>Time Spent in Company</li>
+<li>Average Hours Spent in Workplace per Month</li>
+<li>Number of Finished Projects</li>
+<li>Time Since Last Performance Evaluation</li>
+</ol>
+<h2 id="conslusion">Conslusion</h2>
+<p>The issue of employee turnover was addressed by this project. The final model was provided with high accuracy, precision, and recall.
+The model could be used to predict future employee turnover for this particular company. However, since relationship between these features is probably not specific to this particular company,
+the model can be used by other companies as well. However, since measuring job satisfaction employs different questionnaires and scales, it would be best to use the same scale as in this case.
+Even in that case, a drop in accuracy should be expected, even though it should still be high above the chance.
+In the end, the project provided insights into which factors drive the employee turnover the most. With these results in mind, developing future strategies should focus on
+increasing job satisfaction and providing long-term employees with different reasons to stay in the company.</p>
 <ul class="pa0">
   
 </ul>
@@ -218,14 +275,6 @@
 </svg>
 </span></a>
 
-
-<a href="htt" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
-  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
-
-<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
-</svg>
-</span></a>
 
 
 
